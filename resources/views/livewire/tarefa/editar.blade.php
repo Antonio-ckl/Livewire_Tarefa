@@ -8,7 +8,7 @@
     <div class="card">
         <h5 class="card-header">Cadastro de Tarefa</h5>
         <div class="card-body">
-            <form wire:submit.prevent="store">
+            <form wire:submit.prevent="salvar">
                 <div class="mb-3">
                     <label for="nome" class="form-label">Nome</label>
 
@@ -29,7 +29,7 @@
 
                 </div>
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-success">Cadastrar</button>
+                    <button type="submit" class="btn btn-success">Update</button>
 
 
                 </div>
